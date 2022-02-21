@@ -42,7 +42,7 @@
 	"scripts": {
 		"prepare": "husky install",
 		"prebuild": "rimraf .svelte-kit && rimraf build && rimraf .vercel_build_output && rimraf .netlify && npm run sitemap:rss",
-		"pre-commit": "npm run banners && git add ./static/images/blogs/**/banner.jpg && lint-staged",
+		"pre-commit": "",
 		"check-env": "node --loader ts-node/esm scripts/js/check-env.ts",
 		"sitemap:rss": "npm run sitemap && npm run rss",
 		"sitemap": "node --loader ts-node/esm scripts/js/sitemap.ts --mode=prod --project=sveltekit-blog --arhitect-type=build --configurations=prod",
@@ -121,7 +121,7 @@
 		"@sveltejs/kit": "^1.0.0-next.165",
 		"@tailwindcss/typography": "^0.4.1",
 		"@types/marked": "^3.0.0",
-		"@types/node": "^16.7.2",
+		"@types/node": "^16.11.25",
 		"@types/node-fetch": "^2.5.12",
 		"@types/nprogress": "^0.2.0",
 		"@types/prismjs": "^1.16.6",
@@ -181,7 +181,7 @@
 		"svelte-preprocess": "^4.7.4",
 		"tailwindcss": "^2.2.4",
 		"ts-node": "^10.2.1",
-		"tslib": "^2.0.0",
+		"tslib": "^2.3.1",
 		"typescript": "^4.0.0",
 		"yargs": "^17.1.1"
 	},

@@ -31,19 +31,21 @@
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white"> About Me </h1>
 	<div class="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
 		<p>
-			Hey, I'm Sveltekit Blogger. I'm a Software Developer, writer and creator of
-			<ExternalLink href="https://github.com/navneetsharmaui/sveltkit-starter"
-				>Sveltekit Starter Project</ExternalLink
-			> and <ExternalLink href="https://github.com/navneetsharmaui/sveltkit-starter"
-				>Sveltekit Blog Project</ExternalLink
-			>
+			Hey, I'm Logan, a full-stack developer,  well I am a little more than that. I have a passion for CI/CD and the process of software development.  
+			I really enjoy working with people and I am always looking to learn new things. 
+
 		</p>
 		<p>
-			The template has all the route and sample pages setup for you which you can change and customize further.
-			All the pages are by default loaded from the different JS file and is fetched using prefetch when use hover
-			over the links, which reduces the load time when user eventually decides to click on the link and load the
-			route
+		I have recently been working with the Power Platform and I am very excited to see what the future holds for it.  
+			Although there are so so many things that need to be improved with the professional developer/operations experience, I think it is off to a good start.
 		</p>
+		<p>
+			I am quite interested in Svelte to see where it goes (I have developed this blog and site with it.)
+		</p>
+		<p>
+			I will post contact details here as well as my GitHub and other social media links.
+		</p>
+	
 	</div>
 </div>
 <!-- End: About page section -->

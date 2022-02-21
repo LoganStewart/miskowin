@@ -78,10 +78,10 @@
 <!-- Start: Home Page container -->
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-		Hey, I’m Sveltekit Blogger
+		Hey, I’m Logan Stewart
 	</h1>
 	<p class="prose text-gray-600 dark:text-gray-400 mb-16">
-		I'm a developer and creator. I work as the Software Developer at XYZ. You’ve found my personal slice of the
+		I'm a developer and creator. I work as the Software Engineering Manager and Sr Architect at Frequency Foundry. You’ve found my personal slice of the
 		internet –&nbsp; while you're here
 		<a sveltekit:prefetch href="/about" aria-label="about me" class="text-blue-700 hover:text-blue-800 transition"
 			>learn more about me.</a
