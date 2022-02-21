@@ -1,46 +1,60 @@
-# :rocket: Sveltekit Starter Blog
+# Static Web App
 
-[![Powered By Sveltekit](https://img.shields.io/badge/powered%20by-svelte-FF3C02.svg?style=flat&logo=svelte)](https://kit.svelte.dev/) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://github.com/tc39/ecma262) [![Tailwindcss](https://img.shields.io/badge/Tailwindcss-CSS--Framework-%2338B2AC?logo=tailwindcss)](https://tailwindcss.com) [![Postcss](https://img.shields.io/badge/Postcss-style-%23DD3A0A?style=flat&logo=postcss)](https://postcss.org) [![SCSS](https://img.shields.io/badge/SCSS-Style-%23CC6699?style=flat&logo=sass)](https://sass-lang.com/) [![StorybookJS](https://img.shields.io/badge/Storybook-UI--Webcomponent--tool-%23FF4785?style=flat&logo=storybook)](https://storybook.js.org/) [![Jest](https://img.shields.io/badge/Jest-Unit--Testing--Framework-%23C21325?style=flat&logo=jest)](https://jestjs.io/) [![Prettier](https://img.shields.io/badge/Prettier-code--formatter-%23F7B93E?style=flat&logo=prettier)](https://prettier.io/) [![Eslint](https://img.shields.io/badge/Eslint-linter-%234B32C3?style=flat&logo=eslint)](https://eslint.org/) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/navneetsharmaui/sveltekit-blog/blob/main/LICENSE)
+This project was created to help represent a fundamental app written with Svelte. The shopping theme is used throughout the app.
 
-![sveltekit](https://user-images.githubusercontent.com/11630812/114088279-7cd7be80-98d2-11eb-883c-66c3bf48f293.png)
+## Getting Started
 
-Sveltekit Blog project created with Sveltekit, Typescript, Tailwindcss, Postcss, SCSS, Husky, ESLint, Prettier, Storybook, and MDSVEX.
-The project has the ***SSR (Server Side Rendering)*** setup. These template is easy to configure and built upon as it has scalable structure.
+1. Create a repository from this template repository <https://github.com/MicrosoftDocs/mslearn-staticwebapp/generate>
 
-## :100: :fire: Project LightHouse Report
+1. Enter the name of your new repository as _my-static-web-app_
 
-![sveltekit-starter-lighthouse-report](https://user-images.githubusercontent.com/11630812/115241377-5d485d80-a13e-11eb-8667-611770992c28.png)
+1. Clone your new repository
 
-## :paperclip: Menu
+   ```bash
+   git clone https://github.com/your-github-organization/my-static-web-app
+   cd my-static-web-app/svelte-app
+   ```
 
-- :bulb: [Features](#bulb-features)
-- :hammer: [Project Setup](#hammer-project-setup)
-- :bug: [Known Bugs](https://github.com/navneetsharmaui/sveltekit-blog/issues)
+1. Install the npm packages
 
-## :bulb: Features
+   ```bash
+   npm install
+   ```
 
-- [:heavy_check_mark:] Server side rendering built with ***SEO*** in mind.
-- [:heavy_check_mark:] SSR + Blog Setup.
-- [:heavy_check_mark:] Tailwindcss + Postcss + SCSS Syntax Support in Postcss.
-- [:heavy_check_mark:] Global Style and Variable preconfigured for Postcss.
-- [:heavy_check_mark:] StorybookJS preconfigured (with postcss support).
-- [:heavy_check_mark:] Browser sync, auto refresh, auto reload.
-- [:heavy_check_mark:] 100% on Google Speedpage and 100% Lighthouse report.
-- [:heavy_check_mark:] Friendly and Scalable boilerplate.
-- [:heavy_check_mark:] Typescript + TSPaths (absolute for imports in component) preconfigured.
-- [:heavy_check_mark:] Prettiers, ESLint, and Husky preconfigured.
-- [:heavy_check_mark:] Github and Vscode dotfiles preconfigured.
+1. Run the app
 
-## :hammer: Project Setup
+   ```bash
+   npm run dev
+   ```
 
-1. `npx degit navneetsharmaui/sveltekit-blog my-app` or Clone this repository.
-2. `npm install` or `yarn install` or `pnpm install`.
-3. `npm run dev` or `yarn run dev` or `pnpm run dev`.
-4. `npm run build:static:ssr` or `yarn run build:static:ssr` or `pnpm run build:static:ssr`.
-5. `npm run preview` or `yarn run preview` or `pnpm run preview`.
 
-## 💫 License
+## Resources
 
-- Code and Contributions have **MIT License**
+### Azure Static Web Apps
 
-*Copyright (c) 2021 [Navneet Sharma](http://github.com/navneetsharmaui) ([@asnavneetsharma](https://twitter.com/asnavneetsharma))*
+- Learn how to [Publish an Angular, React, Svelte, or Vue JavaScript app and API with Azure Static Web Apps](https://docs.microsoft.com/learn/modules/publish-app-service-static-web-app-api?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [API support in Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/apis?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Add an API to Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/add-api?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Authentication and authorization](https://docs.microsoft.com/azure/static-web-apps/authentication-authorization?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Routes](https://docs.microsoft.com/azure/static-web-apps/routes?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Review pre-production environments](https://docs.microsoft.com/azure/static-web-apps/review-publish-pull-requests?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+
+### Azure Functions
+
+- Learn how to [Refactor Node.js and Express APIs to Serverless APIs with Azure Functions](https://docs.microsoft.com/learn/modules/shift-nodejs-express-apis-serverless/?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- Learn about the Azure Functions [local.settings.json](https://docs.microsoft.com/azure/azure-functions/functions-run-local#local-settings-file?wt.mc_id=mslearn_staticwebapp-github-jopapa) file
+- Learn how to [Deploy to Azure Using Azure Functions](https://code.visualstudio.com/tutorials/functions-extension/getting-started?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- Sign up for a [Free Trial of Azure](https://azure.microsoft.com/free/?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+
+### Visual Studio Code
+
+- [Azure Free Trial](https://azure.microsoft.com/free/?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [VS Code](https://code.visualstudio.com?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [VS Code Extension for Node on Azure](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack&WT.mc_id=mslearn_staticwebapp-github-jopapa)
+- Azure Functions [local.settings.json](https://docs.microsoft.com/azure/azure-functions/functions-run-local#local-settings-file?WT.mc_id=mslearn_staticwebapp-github-jopapa) file
+
+### Debugging Resources
+
+- [Debugging Angular in VS Code](https://code.visualstudio.com/docs/nodejs/angular-tutorial?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Debugging React in VS Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial?wt.mc_id=mslearn_staticwebapp-github-jopapa)
+- [Debugging Vue in VS Code](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial?wt.mc_id=mslearn_staticwebapp-github-jopapa)
